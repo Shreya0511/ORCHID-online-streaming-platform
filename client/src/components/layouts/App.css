@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+.box{
+    width:70%;
+    margin:0 auto; 
+}
+.slick-slide>div{
+    margin:0 10px;
+}
+.slick-list{
+    margin:0 -10px;
+}
+.card{
+    border:1px solid white;
+    background: red;
+    border-radius: 8px;
+    overflow:hidden;
+    height:200px;
+    color: aqua;
+}
+.top h1{
+  font-size: 1rem;
+  margin: 10px 20px;
+}
+.top > img{
+   width:100%;
+   height:100%;
+   object-fit:cover;
+}
+.bottom{
+    margin: 10px 20px;
+}

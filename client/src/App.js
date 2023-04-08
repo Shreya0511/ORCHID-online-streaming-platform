@@ -1,8 +1,13 @@
 import './App.css';
+import Navbar  from './components/layouts/Navbar';
+import Slidebar from './components/layouts/Slidebar';
 
-function App() {
+const App=()=> {
   return (
-  <></>
+    <>
+  <Navbar/>
+  <Slidebar/>
+    </>
   );
 }
 
